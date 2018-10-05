@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon|Rancho|Ruslan+Display');
+@import url('https://fonts.googleapis.com/css?family=Kreon|Magra|Rancho|Ruslan+Display');
+@import url('https://fonts.googleapis.com/css?family=Kreon|Magra|Rancho|Ruslan+Display|Squada+One');
+@import url('https://fonts.googleapis.com/css?family=Kreon|Lato|Magra|Rancho|Ruslan+Display|Squada+One');
+@import url('https://fonts.googleapis.com/css?family=Kreon|Lato|Magra|Oswald|Rancho|Ruslan+Display|Squada+One');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Mali|Roboto+Condensed');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.head{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://i.stack.imgur.com/Rpbjm.png'); 
+	background-repeat: no-repeat;
+    background-size: 6000px; 
+    height: 100px;
+    
+	border-radius: ;
+}
+.all{
+	display: inline-flex;
+	align-items: center;
+
+}
+.img{
+	margin-left: 20px;
+}
+.bus{
+    
+	font-weight: bold;
+	height: 32px;
+	width: 510px;
+	border-radius: 200px;
+	
+}
+
+
+.input-group{
+
+ 	
+   
+  margin-left: 50px;
+}
+
+
+.login{
+	
+	
+	margin-left: 400px;
+	
+    font-family: 'Oswald', sans-serif;
+
+}
+.bhai{
+	
+	text-align: center;
+}
+
+.colorchange{
+	animation: colorchangenewshop 1s infinite;
+}
+@keyframes colorchangenewshop{
+ 	0%{ color: red; }
+ 	25%{color: #bf55ec;}
+ 	100%{color: #bf55ec;}
+ 	50%{color: white;}
+ 	120%{color: #bf55ec;}
+ 	
+ }
+.Search-btn{
+	position:absolute;
+	left:750px;
+	top:26px;
+
+}
+.li{
+	background-color: red;
+	height: 4px;
+	width:auto;
+}
+.sex{
+ text-align: center;
+margin-top: -49px;
+}
+ul{
+	display: inline-flex;
+	font-size: 15px;
+	max-height: 0px;
+	font-family: 'Squada One', cursive;
+	list-style: none;
+}
+ul li a{
+	color: white;
+	margin: 10px;
+}
+.left{
+   margin: 30px;
+}
+
+
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+    45%{
+    	left: -100%;
+    }
+    50%{
+    	left: -200%;
+    }
+    70%{
+    	left: -200%;
+    }
+    75%{
+    	left: -300%;
+    }
+    80%{
+    	left: -300%;
+    }
+    95%{
+    	left: -400%;
+    }
+
+    100%{
+    	left: -400%;
+    }
+}
+
+#slider{
+	overflow: hidden;
+}
+
+#slider figure img{
+     
+     width: 20%;
+     float: left;
+}
+#slider figure{
+	position: relative;
+
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+    animation: 20s slider infinite;
+
+
+
+}
+.box{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://i.ytimg.com/vi/jLUI3rfrfM4/maxresdefault.jpg');
+     height: 250px;
+     font-family: 'Indie Flower', cursive;
+     color: white
+
+}
+.Back{
+    font-family:'Mali', cursive;
+	text-align: center;
+	border-radius: 10px;
+	height: 30px;
+	color: yellow;
+	background-color:  #bf55ec;
+}
+
+.get{
+     
+	 font-family:'Mali', cursive;
+	text-align: center;
+	color: white;
+    border-radius: 1px;
+    background-color: black;
+    margin-top: 10px;
+}
+.flexall{
+	display: inline-flex;
+	margin: 20px;
+
+
+    
+
+}
+
+.flex1{
+     margin-right: 20px;
+
+}
+.flex2{
+	margin-left: 100px;
+}
+.flex3{
+    margin-left: 100px;
+}
+.flex4{
+	margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
